@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  background-color: #1da1f2;
+  font-family: Roboto;
+  color: white;
+}
+
+.brand-name {
+  padding: 17px 0 18px 120px;
+}
+
+.logo-bold-word {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.logo-normal-word {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.menu-tab {
+  display: flex;
+  flex-direction: row;
+  padding: 26px 120px 0 0;
+}
+
+.menu-list {
+  padding-left: 40px;
+}
+
+.menu-list:first-child {
+  padding-left: 0px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@media (max-width: 1024px) {
+  .brand-name {
+    padding: 17px 0 18px 60px;
+  }
+
+  .menu-tab {
+    padding: 26px 60px 0 0;
+  }
+}

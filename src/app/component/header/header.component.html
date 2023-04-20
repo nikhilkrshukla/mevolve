@@ -1,20 +1,48 @@
 <div class="header">
-    <div class="brand-name">
-        <span class="logo-bold-word">Me</span>
-        <span class="logo-normal-word">volve</span>
+  <div class="brand-name">
+    <span class="logo-bold-word">Me</span>
+    <span class="logo-normal-word">volve</span>
+  </div>
+  <div class="menu-tab">
+    <div class="menu-list">
+      <a class="menu-link" href="#">Home</a>
     </div>
-    <div class="menu-tab">
-        <div class="menu-list">
-            <a class="menu-link" href="#">Home</a>
-        </div>
-        <div class="menu-list">
-            <a class="menu-link" href="#">Features</a>
-        </div>
-        <div class="menu-list">
-            <a class="menu-link" href="#">Pricing</a>
-        </div>
-        <div class="menu-list">
-            <a class="menu-link" href="#">Contact us</a>
-        </div>
+    <div class="menu-list">
+      <a class="menu-link" href="#">Features</a>
     </div>
+    <div class="menu-list">
+      <a class="menu-link" href="#">Pricing</a>
+    </div>
+    <div class="menu-list">
+      <a class="menu-link" href="#">Contact us</a>
+    </div>
+  </div>
+</div>
+
+<div class="header-mobile">
+  <div class="header-mobile-top">
+    <div class="header-logo">
+      <img src="assets/images/group-284.png" id="logo" />
+    </div>
+    <div class="header-menu-icon">
+      <mat-icon id="menu-icon" (click)="toggleMenu()" *ngIf="!isVisible">menu</mat-icon>
+      <mat-icon id="menu-icon" (click)="toggleMenu()"  *ngIf="isVisible">close</mat-icon>
+    </div>
+  </div>
+  <div class="header-mobile-bottom" *ngIf="isVisible">
+    <div class="menu-tab-mobile">
+      <div class="menu-list-mobile">
+        <a class="menu-link-mobile" href="#">Home</a>
+      </div>
+      <div class="menu-list-mobile">
+        <a class="menu-link-mobile" href="#">Features</a>
+      </div>
+      <div class="menu-list-mobile">
+        <a class="menu-link-mobile" href="#">Pricing</a>
+      </div>
+      <div class="menu-list-mobile">
+        <a class="menu-link-mobile" href="#">Contact us</a>
+      </div>
+    </div>
+  </div>
 </div>

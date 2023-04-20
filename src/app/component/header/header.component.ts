@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { elementAt } from 'rxjs';
 
 @Component({
   selector: 'app-header',
@@ -6,4 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  isVisible = false;
+
+  toggleMenu() {
+    this.isVisible = !this.isVisible;
+  }
 }

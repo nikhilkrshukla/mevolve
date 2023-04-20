@@ -8,6 +8,20 @@
   color: white;
 }
 
+.header-mobile {
+  display: none;
+}
+
+.header-mobile-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 56px;
+  width: 100vw;
+  background-color: #1da1f2;
+  color: white;
+}
+
 .brand-name {
   padding: 17px 0 18px 120px;
 }
@@ -50,6 +64,49 @@
   line-height: 16px;
 }
 
+#menu-icon {
+  padding: 16px 16px 16px 0;
+}
+
+.header-mobile-bottom {
+  width: 100vw;
+  height: 184px;
+  background-color: #1da1f2;
+  position: absolute;
+  z-index: 10;
+}
+
+.menu-tab-mobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-list-mobile {
+  height: 32px;
+  border-top: 0.5px solid #ffffff;
+  padding: 16px 0 0 16px;
+}
+
+.menu-list-mobile:first-child {
+  height: 32px;
+  padding: 8px 0 0 16px;
+  border-top: none;
+}
+
+.menu-link-mobile {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+#logo {
+  width: 77px;
+  height: 18.5px;
+  padding: 19px 0 0 16px;
+}
+
 @media (max-width: 1024px) {
   .brand-name {
     padding: 17px 0 18px 60px;
@@ -57,5 +114,15 @@
 
   .menu-tab {
     padding: 26px 60px 0 0;
+  }
+}
+
+@media (max-width: 599px) {
+  .header {
+    display: none;
+  }
+
+  .header-mobile {
+    display: block;
   }
 }

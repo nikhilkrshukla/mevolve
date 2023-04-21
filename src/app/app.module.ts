@@ -9,6 +9,7 @@ import { HeroBannerComponent } from './component/hero-banner/hero-banner.compone
 import { MatIconModule } from '@angular/material/icon';
 import { ShortcutComponent } from './component/shortcut/shortcut.component';
 import { ProductPlanComponent } from './component/product-plan/product-plan.component';
+import { VideoPlayerComponent } from './component/video-player/video-player.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ProductPlanComponent } from './component/product-plan/product-plan.comp
     FooterComponent,
     HeroBannerComponent,
     ShortcutComponent,
-    ProductPlanComponent
+    ProductPlanComponent,
+    VideoPlayerComponent
   ],
   imports: [
     BrowserModule,

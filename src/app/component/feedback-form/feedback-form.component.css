@@ -1,0 +1,177 @@
+.feedback-form {
+  background-color: #fafafa;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.ff-title {
+  padding: 50px 0 20px 0;
+}
+
+.ff-title-txt {
+  padding-bottom: 20px;
+}
+
+.title-txt {
+  margin: 0;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  color: #323238;
+}
+
+.title-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #949c9e;
+  margin: 0;
+}
+
+.ff-content {
+  background-color: white;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.ff-form {
+  padding: 30px;
+}
+
+.ff-field-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #323238;
+  margin: 0;
+  padding: 20px 0 10px 0;
+}
+
+.ff-field-label:first-child {
+  padding-top: 0;
+}
+
+.ff-input-name {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #949c9e;
+  border-radius: 6px;
+}
+
+.ff-input-email {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #949c9e;
+  border-radius: 6px;
+}
+
+.ff-input-message {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #949c9e;
+  border-radius: 6px;
+}
+
+::placeholder {
+  padding: 16px 0 0px 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #949c9e;
+}
+
+.ff-btn {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.ff-submit {
+  width: 299px;
+  height: 50px;
+  background: #1da1f2;
+  border-radius: 6px;
+  border: #1da1f2;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@media (max-width: 1024px) {
+  .feedback-form {
+    padding-bottom: 30px;
+  }
+
+  .ff-title {
+    padding-top: 30px;
+  }
+
+  .title-txt {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .title-desc {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .ff-content {
+    width: 47vw;
+  }
+
+  .ff-field-label {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 16px 0 13px 0;
+  }
+
+  ::placeholder {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 599px) {
+  .feedback-form {
+    padding-bottom: 24px;
+  }
+
+  .ff-title {
+    padding: 24px 0;
+  }
+
+  .ff-title-txt {
+    padding-bottom: 16px;
+  }
+
+  .title-txt {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .title-desc {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .ff-content {
+    width: calc(100vw - 32px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ff-form {
+    padding: 20px 20px 24px;
+  }
+
+  .ff-btn {
+    padding-bottom: 20px;
+  }
+
+  .ff-submit {
+    width: 196px;
+  }
+}

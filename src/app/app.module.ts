@@ -10,6 +10,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { ShortcutComponent } from './component/shortcut/shortcut.component';
 import { ProductPlanComponent } from './component/product-plan/product-plan.component';
 import { VideoPlayerComponent } from './component/video-player/video-player.component';
+import { FeedbackFormComponent } from './component/feedback-form/feedback-form.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { VideoPlayerComponent } from './component/video-player/video-player.comp
     HeroBannerComponent,
     ShortcutComponent,
     ProductPlanComponent,
-    VideoPlayerComponent
+    VideoPlayerComponent,
+    FeedbackFormComponent
   ],
   imports: [
     BrowserModule,

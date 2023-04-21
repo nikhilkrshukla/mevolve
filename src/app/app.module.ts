@@ -7,6 +7,7 @@ import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { HeroBannerComponent } from './component/hero-banner/hero-banner.component';
 import { MatIconModule } from '@angular/material/icon';
+import { ShortcutComponent } from './component/shortcut/shortcut.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { MatIconModule } from '@angular/material/icon';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HeroBannerComponent
+    HeroBannerComponent,
+    ShortcutComponent
   ],
   imports: [
     BrowserModule,

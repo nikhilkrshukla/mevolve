@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { elementAt } from 'rxjs';
 
 @Component({
   selector: 'app-header',

@@ -1,0 +1,268 @@
+.product-plan {
+  background-color: white;
+}
+
+.product-plan-title {
+  padding-top: 50px;
+}
+
+.plan-title {
+  margin: 0px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  color: #323238;
+  text-align: center;
+}
+
+.product-plan-content {
+  width: 50vw;
+  padding: 30px 0 50px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-plan-tile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.product-tile {
+  width: 206px;
+  text-align: center;
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.05),
+    -4px -4px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.product-price {
+  padding-top: 30px;
+}
+
+.price-txt {
+  margin: 0;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  color: #323238;
+}
+
+.product-validity {
+  padding-top: 20px;
+}
+
+.validity-txt {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #949c9e;
+}
+
+.product-billing {
+  padding: 2px 0 30px;
+}
+
+.billing-txt {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #655b5b;
+}
+
+.product-desc-tile {
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.05),
+    -4px -4px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.desc-title-txt {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #323238;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.desc-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 30px 117px;
+}
+
+.desc-content-icon {
+  color: #1da1f2;
+  height: 28px;
+  width: 28px;
+  font-size: 28px;
+  padding-right: 20px;
+}
+
+.desc-content-txt {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #323238;
+}
+
+@media (max-width: 1024px) {
+  .product-plan-title {
+    padding-top: 30px;
+  }
+
+  .product-plan-content {
+    padding-bottom: 30px;
+  }
+
+  .plan-title {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .product-tile {
+    width: 127px;
+  }
+
+  .product-price {
+    padding-top: 20px;
+  }
+
+  .price-txt {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .product-validity {
+    padding-top: 12px;
+  }
+
+  .validity-txt {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .product-billing {
+    padding: 0px 0 20px;
+  }
+
+  .billing-txt {
+    font-size: 12px;
+    line-height: 30px;
+  }
+
+  .product-desc-tile {
+    padding-top: 20px;
+  }
+
+  .desc-title-txt {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .desc-content {
+    padding: 0 0 20px 31px;
+  }
+
+  .desc-content-icon {
+    padding-right: 12px;
+  }
+
+  .desc-content-txt {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 599px) {
+  .product-plan-title {
+    padding-top: 32px;
+  }
+
+  .product-plan-content {
+    width: calc(100vw - 32px);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .plan-title {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .product-plan-tile {
+    flex-direction: column;
+    padding-bottom: 32px;
+  }
+
+  .product-tile {
+    width: 188px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+  }
+
+  .product-tile:last-child {
+    padding-bottom: 0;
+  }
+
+  .product-price {
+    padding-top: 30px;
+  }
+
+  .price-txt {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .product-validity {
+    padding-top: 20px;
+  }
+
+  .validity-txt {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .product-billing {
+    padding: 2px 0 30px;
+  }
+
+  .billing-txt {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .product-desc-tile {
+    padding-top: 24px;
+  }
+
+  .desc-title-txt {
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 24px;
+  }
+
+  .desc-content {
+    padding: 0 32px 24px 32px;
+  }
+
+  .desc-content-icon {
+    padding-right: 12px;
+  }
+
+  .desc-content-txt {
+    line-height: 16px;
+    text-align: left;
+  }
+}

@@ -1,0 +1,147 @@
+.content-layout {
+  padding: 48px 200px 50px 200px;
+}
+
+.content-layout-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-30 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-50 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.col-70 {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+}
+
+.left-aligned {
+  padding-left: 0;
+  padding-right: 5%;
+}
+
+.layout-img {
+  filter: drop-shadow(4px 4px 40px rgba(0, 0, 0, 0.05))
+    drop-shadow(-4px -4px 40px rgba(0, 0, 0, 0.05));
+}
+
+.layout-text-title {
+  padding-bottom: 18px;
+}
+
+.title-txt {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: #323238;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+.dropdown {
+  background: #ffffff;
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.02),
+    -4px -4px 40px rgba(0, 0, 0, 0.02);
+  border-radius: 6px;
+  height: 48px;
+  margin-top: 30px;
+}
+
+.dropdown-active {
+  height: 111px;
+  margin-top: 0;
+}
+
+.dropdown-title {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.dropdown-title-icon-left {
+  width: 28px;
+  height: 28px;
+  font-size: 28px;
+  padding: 0 17px 0 20px;
+}
+
+.dropdown-text-box {
+  width: 553px;
+}
+
+.dropdown-title-txt {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #323238;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+.dropdown-desc-txt {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #9e9e9e;
+  margin: 0;
+}
+
+.dropdown-title-icon-right {
+  width: 28px;
+  height: 28px;
+  font-size: 28px;
+  padding-right: 10px;
+}
+
+.active-txt {
+  color: #1da1f2;
+}
+
+.title-li-txt {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #9e9e9e;
+}
+
+@media (max-width: 1024px) {
+  .content-layout {
+    padding: 50px 100px 50px 100px;
+  }
+
+  .content-layout-4 {
+    display: none;
+  }
+
+  .content-layout-5 {
+    display: none;
+  }
+}
+
+@media (max-width: 599px) {
+  .content-layout {
+    padding: 32px 16px 32px 16px;
+  }
+
+  .content-layout-4 {
+    display: none;
+  }
+
+  .content-layout-5 {
+    display: none;
+  }
+}

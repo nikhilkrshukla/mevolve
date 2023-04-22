@@ -11,6 +11,7 @@ import { ShortcutComponent } from './component/shortcut/shortcut.component';
 import { ProductPlanComponent } from './component/product-plan/product-plan.component';
 import { VideoPlayerComponent } from './component/video-player/video-player.component';
 import { FeedbackFormComponent } from './component/feedback-form/feedback-form.component';
+import { ContentLayoutComponent } from './component/content-layout/content-layout.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { FeedbackFormComponent } from './component/feedback-form/feedback-form.c
     ShortcutComponent,
     ProductPlanComponent,
     VideoPlayerComponent,
-    FeedbackFormComponent
+    FeedbackFormComponent,
+    ContentLayoutComponent
   ],
   imports: [
     BrowserModule,

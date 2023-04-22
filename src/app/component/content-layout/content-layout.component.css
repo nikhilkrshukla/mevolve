@@ -21,6 +21,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .col-70 {
   width: 70%;
   display: flex;
@@ -35,6 +36,7 @@
 }
 
 .layout-img {
+  max-width: 100%;
   filter: drop-shadow(4px 4px 40px rgba(0, 0, 0, 0.05))
     drop-shadow(-4px -4px 40px rgba(0, 0, 0, 0.05));
 }
@@ -57,12 +59,11 @@
   box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.02),
     -4px -4px 40px rgba(0, 0, 0, 0.02);
   border-radius: 6px;
-  height: 48px;
+  height: fit-content;
   margin-top: 30px;
 }
 
 .dropdown-active {
-  height: 111px;
   margin-top: 0;
 }
 
@@ -98,6 +99,11 @@
   line-height: 23px;
   color: #9e9e9e;
   margin: 0;
+  padding-bottom: 12px;
+}
+
+.layout-img-mobile {
+    display: none;
 }
 
 .dropdown-title-icon-right {
@@ -123,25 +129,101 @@
     padding: 50px 100px 50px 100px;
   }
 
-  .content-layout-4 {
+  .col-50 {
     display: none;
   }
 
-  .content-layout-5 {
-    display: none;
+  .layout-text-title {
+    padding-bottom: 8px;
+  }
+
+  .title-txt {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .dropdown {
+    margin-top: 24px;
+  }
+
+  .dropdown-title-icon-left {
+    height: 22px;
+    width: 22px;
+    font-size: 22px;
+  }
+
+  .dropdown-title-txt {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .dropdown-desc-txt {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .dropdown-title-icon-right {
+    height: 22px;
+    width: 22px;
+    font-size: 22px;
   }
 }
 
 @media (max-width: 599px) {
   .content-layout {
-    padding: 32px 16px 32px 16px;
+    padding: 0px 16px 32px 16px;
   }
 
-  .content-layout-4 {
+  .col-50 {
     display: none;
   }
 
-  .content-layout-5 {
+  .col-30 {
     display: none;
+  }
+
+  .col-70 {
+    width: calc(100vw - 32px);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+  }
+
+  .layout-text-title {
+    padding-top: 32px;
+    padding-bottom: 12px;
+  }
+
+  .layout-img-mobile {
+    display: inline;
+    max-width: 100%;
+  }
+
+  .dropdown {
+    margin-top: 0;
+  }
+
+  .dropdown-title {
+    padding: 12px 20px 12px 20px;
+    align-items: center;
+  }
+
+  .active-dropdown {
+    align-items: start;
+  }
+
+  .dropdown-title-txt {
+    padding-bottom: 0;
+  }
+
+  .dropdown-title-icon-left{
+    padding-left: 0;
+    height: 24px;
+    width: 24px;
+    font-size: 24px;
+  }
+
+  .title-txt {
+    text-align: center;
   }
 }
